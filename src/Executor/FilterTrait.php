@@ -36,7 +36,7 @@ trait FilterTrait
     /**
      * {@inheritdoc}
      */
-    public function filter($target, array $parameters, array $operators, ExecutionContext $context)
+    public function filter($target, array $parameters, array $operators, ExecutionContext $context): \Traversable
     {
         /** @var \Doctrine\DBAL\Query\QueryBuilder $target */
 

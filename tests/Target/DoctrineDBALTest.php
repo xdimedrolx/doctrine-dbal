@@ -17,7 +17,7 @@ class DoctrineDBALTest extends TestCase
 {
     private $target;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->target = new DoctrineDBAL();
     }

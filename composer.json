@@ -12,18 +12,14 @@
         }
     ],
     "require": {
-        "php": ">=7.1",
-
-        "kphoen/rulerz": "dev-master as 1.0.0",
-
-        "doctrine/dbal": "^2.4"
+        "php": ">=7.4",
+        "xdimedrolx/rulerz": "^0.23",
+        "doctrine/dbal": "^2.4|^3.0"
     },
     "require-dev": {
         "liip/rmt": "^1.2",
-
         "behat/behat": "~3.0",
-
-        "phpunit/phpunit": "^7.1",
+        "phpunit/phpunit": "^9.0",
         "kphoen/rusty": "dev-master"
     },
     "autoload": {
